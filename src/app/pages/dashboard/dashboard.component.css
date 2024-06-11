@@ -1,0 +1,128 @@
+.container-landing {
+    color: white;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/07/81/53/42/1000_F_781534259_jWS2uvNDFstvT70NG8rXlt80lrAb1cS6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .btn-n{
+    font-size: 1.5rem;
+    background-color: #b33c00;
+    color: white;
+    border-radius: 10px;
+    transition-duration: 1.5s ease;
+  }
+  .btn-n:hover{
+    color: #f7f7f7;
+    background-color: #004eb3;
+  }
+  .bg-img{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg,rgba(151, 15, 196, 0.523),rgba(15, 24, 196, 0.349),rgba(151, 15, 196, 0.523));
+    padding: 10% 0% 17% 0%;
+  }
+  .landing-text h2{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .landing-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #003d80;
+  }
+
+.about-text{
+    padding: 5% 2% 5% 0%;
+    color: #0056b3;
+    font-weight: bolder;
+}
+.about-text p{
+    font-size: 1.4rem;
+    line-height: 155%;
+    color: rgba(19, 20, 27, 0.632);
+}
+.about-img img{
+    height: 606px;
+    width: 100%;
+    background-image: url("../assets/my\ image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.alignment{
+  font-family: 'Times New Roman', Times, serif;
+}
+/*-------------------------------------
+        5.  Education
+--------------------------------------*/
+
+.education {
+    background: #f9fbfd;
+    padding-top: 50px;
+  }
+  .education-horizontal-timeline {
+    padding: 80px 0;
+  }
+  
+  /* /.education-horizontal-timeline/ */
+  .education-horizontal-timeline .col-sm-4 {
+    padding: 0 2px;
+  }
+  
+  .single-horizontal-timeline .experience-time h3 {
+    text-transform: capitalize;
+  }
+  .single-horizontal-timeline .experience-time h3 span {
+    text-transform: lowercase;
+  }
+  .single-horizontal-timeline .timeline-content h5 {
+    margin: 15px 0;
+  }
+  .single-horizontal-timeline p {
+    color: #999fb3;
+    max-width: 335px;
+  }
+  
+  /* /.timeline-horizontal-border/ */
+  .timeline-horizontal-border {
+    display: flex;
+    align-items: center;
+    padding: 26px 0 30px;
+  }
+  .timeline-horizontal-border fa-icon {
+    font-size: 10px;
+    color: #d92cf9;
+    margin-right: 5px;
+  }
+  span.single-timeline-horizontal {
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 390px;
+  }
+  span.single-timeline-horizontal.spacial-horizontal-line {
+    width: 88px;
+  }
+  /* /.timeline-horizontal-border/
+  
+  /.education-horizontal-timeline/ */
+
+  @media only screen and (max-width:974px){
+     .alignment{
+        text-align: center;
+     }
+  }

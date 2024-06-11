@@ -1,0 +1,58 @@
+.main{
+    padding: 0% 2% 0% 2%;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 5px 5px 0px;
+    /* border-radius: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.container-fluid .navbar-brand span{
+    padding: 5% 5% 5% 5%;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    word-spacing: 2px;
+    color: #0056b3;
+    
+
+}
+.logo{
+    height: 20px;
+    width: 20Px;
+}
+a{
+    cursor: pointer;
+    color: black;
+}
+.signin{
+    padding-top: 5%;
+}
+.container-fluid .navbar-brand{
+   font-size: 1.1rem;
+   border: 2px solid #ffffff92;
+   padding: 1%;
+   border-radius: 10px;
+}
+.nav-link{
+    font-size: 1.1rem;
+    margin: 10px;
+}
+.nav-item .nav-link:hover{
+    color: chocolate;
+}
+.icon{
+    font-size: 1.1rem;
+}
+.icon span{
+    color: rgba(255, 255, 255, 0.628);
+}
+.footer{
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-top: 1px solid #ffffff9a;
+}
+
